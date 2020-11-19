@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Avengers </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <img alt="" width="1000" height="568" src="Avengers.png">
+    <section id="grid">
+        <h1> Grid Gallery </h1>
+        <span>
+            <img alt="" width="200" height="200" src="Captain America.png">
+            <img alt="" width="200" height="200" src="Black Panther.png">
+            <img alt="" width="200" height="200" src="Hulk.png">
+            <img alt="" width="200" height="200" src="Iron Man.png">
+        </span>
+        <br>
+        <span>
+            <img alt="" width="200" height="200" src="Thanos.png">
+            <img alt="" width="200" height="200" src="Thor.png">
+            <img alt="" width="200" height="200" src="Gamora.png">
+            <img alt="" width="200" height="200" src="Scarlet Witch.png">
+        </span>
+    </section>
+    <section id="slides">
+        <h1> Sliding Gallery </h1>
+        <div id="Avengers" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <br>
+                <br>
+                <div class="item active">
+                    <center>
+                        <h2> Captain America </h2>
+                        <img alt="" src="Captain America.png">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <h2> Black Panther </h2>
+                        <img alt="" src="Black Panther.png">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <h2> Hulk </h2>
+                        <img alt="" src="Hulk.png">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <h2> Iron Man </h2>
+                        <img alt="" src="Iron Man.png">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <h2> Thanos </h2>
+                        <img alt="" src="Thanos.png">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <h2> Thor </h2>
+                        <img alt="" src="Thor.png">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <h2> Gamora </h2>
+                        <img alt="" src="Gamora.png">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <h2> Scarlet Witch </h2>
+                        <img alt="" src="Scarlet Witch.png">
+                    </center>
+                </div>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#Avengers" data-slide-to="0" class="active"> </li>
+                <li data-target="#Avengers" data-slide-to="1" class="active"> </li>
+                <li data-target="#Avengers" data-slide-to="2" class="active"> </li>
+                <li data-target="#Avengers" data-slide-to="3" class="active"> </li>
+                <li data-target="#Avengers" data-slide-to="4" class="active"> </li>
+                <li data-target="#Avengers" data-slide-to="5" class="active"> </li>
+                <li data-target="#Avengers" data-slide-to="6" class="active"> </li>
+                <li data-target="#Avengers" data-slide-to="7" class="active"> </li>
+            </ol>
+            <a class="left carousel-control" href="#Avengers" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+            <a class="right carousel-control" href="#Avengers" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+    </section>
+</body>
+
+</html>
